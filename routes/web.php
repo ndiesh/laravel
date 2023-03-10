@@ -17,8 +17,4 @@ Route::get('/test_apple', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
 //sh
-=======
-//master
->>>>>>> 412e51ce96c001e100a4d3addb1df03d5ea6fa0c
