@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/test_master', function () {
+Route::get('/test_apple', function () {
     return view('welcome');
 });
+
