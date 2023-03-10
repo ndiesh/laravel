@@ -1,0 +1,9 @@
+diff a/routes/web.php b/routes/web.php	(rejected hunks)
+@@ -13,6 +13,6 @@
+ |
+ */
+ 
+-Route::get('/testtest', function () {
++Route::get('/test_apple', function () {
+     return view('welcome');
+ });
