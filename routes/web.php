@@ -17,4 +17,4 @@ Route::get('/test_apple_master', function () {
     return view('welcome');
 });
 
-//Dooli
+//main
