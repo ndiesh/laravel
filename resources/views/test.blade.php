@@ -26,4 +26,5 @@
 
     echo $p4->getCount();
     echo Person::getCount();
+    //test
 ?>
