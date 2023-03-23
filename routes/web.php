@@ -25,16 +25,9 @@ Route::get('/oop', function () {
     return view('test');
 });
 
-
-//master_11
-
 Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/create', [App\Http\Controllers\BlogController::class, 'create'])->name('blog.create');
 
 
 Route::group(['prefix' => 'admin'], function () {
